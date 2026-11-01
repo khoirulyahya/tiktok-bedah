@@ -5,7 +5,7 @@
 #   extract.sh <tiktok-url>
 #
 # All local work in one shot:
-#   1. download (no watermark) via ~/Documents/codeX/tiktok-media-downloader
+#   1. download (no watermark) via $TIKTOK_DL_DIR (default: local tiktok-media-downloader)
 #   2. write content.md  <- the ONLY file the agent has to read
 #   3. carousel -> slides_montage.jpg     (every slide, one image)
 #      video    -> transcript.txt         (faster-whisper, local)

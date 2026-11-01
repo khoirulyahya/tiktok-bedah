@@ -76,6 +76,6 @@ ada narasi. `extract.sh` membedakannya dari error asli dan menuliskan alasannya 
 `video.mp4` **atau** `slide_01.jpg…`, plus `caption.txt`, `metadata.json`, `transcript.txt`, `digest.md`.
 Statistik ada di **top level** `metadata.json` (`view_count`, `like_count`, …) — bukan di `statistics`.
 
-## Repo terkait di `~/Documents/codeX/`
-`ig-media-downloader`, `tiktok-studio-scheduler`, `tiktok-affiliate-masker-producer`,
-`smart-ebook-extractor` (pola SSOT + symlink yang sama).
+## Related local tools
+Sibling download/scheduler labs may live next to this skill on the author machine.
+Public consumers only need a downloader compatible with `TIKTOK_DL_DIR` (see README).
